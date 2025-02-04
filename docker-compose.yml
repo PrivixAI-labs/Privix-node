@@ -1,0 +1,16 @@
+services:
+  mindchain:
+    build: .
+    container_name: mindchain-node
+    volumes:
+      - ./data:/app/data # Mount local 'data' folder to persist blockchain data
+    ports:
+      - "10001:10001"    # Map the libp2p port to the host
+      - "8545:8545"      # Map the JSON-RPC port to the host
+    restart: unless-stopped
+    networks:
+      - mindchain-network
+
+networks:
+  mindchain-network:
+    driver: bridge
