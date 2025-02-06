@@ -1,0 +1,75 @@
+{
+    "name": "PSC-MAINNET",
+    "params": {
+        "forks": {
+            "EIP150": {
+                "block": 0
+            },
+            "EIP155": {
+                "block": 0
+            },
+            "EIP158": {
+                "block": 0
+            },
+            "EIP2929": {
+                "block": 0
+            },
+            "byzantium": {
+                "block": 0
+            },
+            "constantinople": {
+                "block": 0
+            },
+            "homestead": {
+                "block": 0
+            },
+            "istanbul": {
+                "block": 0
+            },
+            "petersburg": {
+                "block": 0
+            },
+            "quorumcalcalignment": {
+                "block": 0
+            },
+            "txHashWithType": {
+                "block": 0
+            }
+        },
+        "chainID": 16969696,
+        "engine": {
+            "ibft": {
+                "blockTime": 3000000000,
+                "epochSize": 1000,
+                "type": "PoA",
+                "validator_type": "ecdsa"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x67224b94",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f85af85494bd7a945d4557f2f7c8eb35dd76dfd3449e5fd9ac940ffaa05b16d3c0e7dfe4a69079e102310f7f6a0c9433680d096e21f92012765804a41713d6ab65e1f094ce44341ca06e56abfe431d38fd03f1b408d91e5080c0c080",
+        "gasLimit": "0x500000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0x8AE237d6c80C05Ca3a1Ca6D40216C0F1AE6c2bE4": {
+                "balance": "0x84595161401484a000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "baseFee": "0x0",
+        "baseFeeEM": "0x0"
+    },
+    "bootnodes": [
+        "/dns4/global-bootnode-1.privixchain.xyz/tcp/10001/p2p/16Uiu2HAmAoH8zY1vmRxSeRezHhgztR2tpXpm1dUM49mY5PNpiWDT",
+        "/dns4/global-bootnode-2.privixchain.xyz/tcp/10001/p2p/16Uiu2HAmEtiSX2ogcdTtY2Y6YrNNeZDBsfRMpKPMFJGHqGFpFqCi",
+        "/dns4/global-bootnode-3.privixchain.xyz/tcp/10001/p2p/16Uiu2HAkuwtTvwWjMTv5cSTzhppaFni9VEKr9HCWSeNRvyUEgmAJ",
+        "/dns4/global-bootnode-4.privixchain.xyz/tcp/10001/p2p/16Uiu2HAmHREtjSJtSWFPvVMYGUepq3KVzLGfjmbff4s1bGPzadn4"
+        ]
+}
